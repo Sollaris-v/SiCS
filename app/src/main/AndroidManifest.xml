@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sics">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.exemp1"></activity>
+        <activity android:name=".exemplo1" />
+        <activity android:name=".activity.BuscaActivity" />
+        <activity android:name=".activity.RelatorioActivity" />
+        <activity android:name=".activity.PerfilActivity" />
+        <activity android:name=".activity.ListaUsuActivity" />
+        <activity android:name=".activity.ChamadoActivity" />
+        <activity android:name=".activity.AbrirChamadoActivity" />
+        <activity
+            android:name=".activity.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.CadastroActivity" />
+        <activity android:name=".activity.CadastroFuncActivity" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

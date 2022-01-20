@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MenuActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/SiCS_DARK"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04" />
+
+            <TextView
+                android:id="@+id/textBemVindo"
+                style="@style/TextviewStyleTitulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bem Vindo Usuário!" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="234dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.04"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04" />
+
+                <ImageView
+                    android:id="@+id/perfil"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:onClick="btVerPerfil"
+                    app:srcCompat="@drawable/ic_account_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04" />
+
+                <ImageView
+                    android:id="@+id/imagBusca"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04"
+                    android:onClick="btBusca"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_busca_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04" />
+
+                <ImageView
+                    android:id="@+id/listarUsuarios"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:onClick="btListarUsuarios"
+                    app:srcCompat="@drawable/ic_lista_usuarios_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04" />
+
+                <ImageView
+                    android:id="@+id/addFunc"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:onClick="btCadastrarFunc"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/add_func_dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04" />
+
+                <ImageView
+                    android:id="@+id/imagRelatorio"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="0.04"
+                    android:onClick="btVerRelatorio"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/ic_relatorio_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="197dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.04"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/sair2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:onClick="btManual"
+                    app:srcCompat="@drawable/ic_help_24dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.04" />
+
+                <ImageView
+                    android:id="@+id/sair"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:onClick="btDeslogar"
+                    app:srcCompat="@drawable/sair_dp"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.04" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/SiCS_DARK" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:onClick="btAbrirChamado"
+            app:backgroundTint="@color/common_google_signin_btn_text_light"
+            app:maxImageSize="45dp"
+            app:srcCompat="@drawable/plus"
+            tools:ignore="VectorDrawableCompat" />
+
+        <!---
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_anchor="@+id/appBarLayout"
+                app:layout_anchorGravity="end|top"
+                app:srcCompat="@drawable/ic_menu_black_24dp"
+                tools:ignore="VectorDrawableCompat"
+
+                />
+    -->
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>

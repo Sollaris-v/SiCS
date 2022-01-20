@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840046321130",
+    "firebase_url": "https://sics-7c8a1.firebaseio.com",
+    "project_id": "sics-7c8a1",
+    "storage_bucket": "sics-7c8a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840046321130:android:db01abdcc2a0699222a693",
+        "android_client_info": {
+          "package_name": "com.example.sics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840046321130-s72q2u73vqfgvfk6sb78ovkhvnu326hk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sics",
+            "certificate_hash": "17b37c22960b711adba8c1b7188966ec5ab6d819"
+          }
+        },
+        {
+          "client_id": "840046321130-qlv24m15gcvedop78d67crpe4b59lbl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxSzLvCzpd9z-Hcqc3pUKWxE36b24u398"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840046321130-qlv24m15gcvedop78d67crpe4b59lbl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

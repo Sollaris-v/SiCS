@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.exemp1">
+
+    <TextView
+        android:id="@+id/textView40"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o período:"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Técnicos pior avaliados:"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="725dp" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="288dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="763dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec3"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="798dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="288dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Técnicos melhor avaliados:"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec3"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o período:"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/Relação de chamados"
+        style="@style/TextviewStyleTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relação de chamados"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Técnicos que mais resolveram chamados:"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec1"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="288dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tec3"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="304dp"
+        style="@style/TextviewStyleTextoPeq" />
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/TextviewStyleTextoPeq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o período:"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="158dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

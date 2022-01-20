@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/Azul4</item>
+        <item name="android:colorBackground">@color/branco1</item>
+        <item name="colorPrimary">@color/SiCS_NOMAL</item>
+        <item name="colorPrimaryDark">@color/SiCS_DARK</item>
+        <item name="colorAccent">@color/Normal2</item>
+    </style>
+
+
+    <style name="ButtonBranco" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/bt_branco</item>
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="ButtonBrancoMenor" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="ButtonBrancoMenor2" parent="@android:style/Widget.Button">
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/bt_branco</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="TextviewStyleTitulo" parent="@android:style/Widget.TextView">
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/preto3</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">23dp</item>
+    </style>
+
+    <style name="TextviewStyleTitulo2" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/branco1</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="TextviewStyleTextoPeq" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto3</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="TextviewStyleTextoPeqBl" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/preto3</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/preto1</item>
+        <item name="android:textColorHint">@color/preto2</item>
+        <item name="android:textColorLink">@color/Normal2</item>
+    </style>
+
+    <style name="EditTextStyleLogin" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/preto1</item>
+        <item name="android:textColorHint">@color/branco1</item>
+        <item name="android:textColorLink">@color/Normal2</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".activity.MenuActivity">
+
+
+    <item
+        android:id="@+id/menu"
+        android:title="@string/configuracao"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert_24dp"/>
+
+    <item
+        android:id="@+id/alterarDados"
+        android:title="@string/alterar_dados"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/cadastrarFunc"
+        android:title="@string/cadastrar_funcionario"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/sair"
+        android:title="@string/deslogar"
+        app:showAsAction="never"/>
+
+</menu>

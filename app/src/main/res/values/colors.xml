@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Nomal1">#00618B</color>
+    <color name="SiCS_DARK">#00567B</color>
+    <color name="SiCS_NOMAL">#00618B</color>
+    <color name="Normal2">#DBB510</color>
+    <color name="Azul1">#58ABFF</color>
+    <color name="cinza1">#8A9CAE</color>
+    <color name="azul2">#059EE0</color>
+    <color name="azul3">#3872AD</color>
+    <color name="Azul4">#3F96BC</color>
+    <color name="preto1">#000000</color>
+    <color name="preto2">#151515</color>
+    <color name="branco1">#FFFFFF</color>
+    <color name="amareloFraco">#DCC974</color>
+    <color name="Pretolero">#1A1701</color>
+    <color name="preto3">#0F0F0F</color>
+</resources>

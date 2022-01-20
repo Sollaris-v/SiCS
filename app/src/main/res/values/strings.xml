@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">SiCS</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="cadastrar_funcionario">Cadastrar funcionário</string>
+    <string name="alterar_dados">Alterar dados</string>
+    <string name="ver_funcionarios">Lista de funcionarios</string>
+    <string name="deslogar">Sair</string>
+    <string name="configuracao">Opções</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="tab_text_1">Chamados Abertos</string>
+    <string name="tab_text_2">Chamados Fechados</string>
+    <string name="tab_text_3">Pesquisar</string>
+    <string name="tab_text_4">Chamados em Andamento</string>
+
+    <string-array name="tipos">
+        <item>problema com o celular</item>
+        <item>problema com computador</item>
+        <!--<item>problema com o aplicativo</item>-->
+    </string-array>
+
+    <string-array name="especialidadeCel">
+        <item>tecnico de celular</item>
+        <item>tecnico de computador</item>
+        <item>tecnico de celular e computador</item>
+    </string-array>
+
+    <string-array name="especialidadeCom">
+        <item>tecnico de computador</item>
+        <item>tecnico de celular</item>
+        <item>tecnico de celular e computador</item>
+    </string-array>
+
+    <string-array name="especialidadeCelCom">
+        <item>tecnico de celular e computador</item>
+        <item>tecnico de computador</item>
+        <item>tecnico de celular</item>
+    </string-array>
+
+    <string-array name="cargos">
+        <item>tecnico</item>
+        <item>supervisor</item>
+        <item>administrador</item>
+    </string-array>
+
+    <string-array name="aberto">
+        <item>aberto</item>
+        <item>em andamento</item>
+        <item>fechado</item>
+
+    </string-array>
+
+    <string-array name="fechado">
+        <item>fechado</item>
+        <item>aberto</item>
+        <item>em andamento</item>
+    </string-array>
+
+    <string-array name="andamento">
+        <item>em andamento</item>
+        <item>fechado</item>
+        <item>aberto</item>
+    </string-array>
+
+    <string-array name="filtro">
+        <item>Título</item>
+        <item>Tipo</item>
+        <item>Data Abertura</item>
+        <item>Data Fechamento</item>
+        <item>Estado</item>
+
+    </string-array>
+
+    <string-array name="listaDeUsuarios">
+        <item>Todos</item>
+        <item>Clientes</item>
+        <item>Técnicos</item>
+        <item>Supervisores</item>
+        <item>Administadores</item>
+
+    </string-array>
+
+    <string-array name="tipoUsuarioCli">
+        <item>Cliente</item>
+        <item>Técnico</item>
+        <item>Supervisor</item>
+        <item>Administrador</item>
+    </string-array>
+
+    <string-array name="tipoUsuarioTec">
+        <item>Técnico</item>
+        <item>Cliente</item>
+        <item>Supervisor</item>
+        <item>Administrador</item>
+    </string-array>
+
+    <string-array name="tipoUsuarioSup">
+        <item>Supervisor</item>
+        <item>Cliente</item>
+        <item>Técnico</item>
+        <item>Administrador</item>
+    </string-array>
+
+    <string-array name="tipoUsuarioAdm">
+        <item>Administrador</item>
+        <item>Cliente</item>
+        <item>Supervisor</item>
+        <item>Técnico</item>
+    </string-array>
+
+    <string-array name="situacaoAt">
+        <item>Ativo</item>
+        <item>Inativo</item>
+    </string-array>
+
+    <string-array name="situacaoIn">
+        <item>Inativo</item>
+        <item>Ativo</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
